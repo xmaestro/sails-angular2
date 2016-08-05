@@ -1,3 +1,3 @@
 # sails-angular2
-
-a [Sails](http://sailsjs.org) application
+=======
+A sample Sails and Angular 2 starter app
