@@ -7,5 +7,7 @@ To run this you will need typescript compiler and npm/node installed and setup.
 #Steps
 
 `npm install`
+
 `tsc`
+
 `sails lift`
