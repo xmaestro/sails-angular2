@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es6",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "emitDecoratorMetadata": true,
+    "target": "es5",
     "experimentalDecorators": true,
-    "removeComments": false,
-    "noImplicitAny": false
+    "emitDecoratorMetadata": true,
+    "sourceMap": true
   },
   "exclude": [
-    "node_modules"
+      ".tmp",
+      "node_modules",
+      "typings/globals",
+      "typings/modules"
   ]
 }
