@@ -1,20 +1,20 @@
 {
   "name": "sails-angular2",
   "private": true,
-  "version": "0.1.1",
-  "description": "a Sails application",
+  "version": "0.2.0",
+  "description": "a Sails + Angular 4 sample application",
   "keywords": [],
   "dependencies": {
-    "@angular/common": "2.4.5",
-    "@angular/compiler": "2.4.5",
-    "@angular/core": "2.4.5",
-    "@angular/forms": "2.4.5",
-    "@angular/http": "2.4.5",
-    "@angular/platform-browser": "2.4.5",
-    "@angular/platform-browser-dynamic": "2.4.5",
-    "@angular/router": "3.4.5",
-    "@angular/upgrade": "2.4.5",
-    "angular-in-memory-web-api": "~0.2.4",
+    "@angular/common": "4.0.2",
+    "@angular/compiler": "4.0.2",
+    "@angular/core": "4.0.2",
+    "@angular/forms": "4.0.2",
+    "@angular/http": "4.0.2",
+    "@angular/platform-browser": "4.0.2",
+    "@angular/platform-browser-dynamic": "4.0.2",
+    "@angular/router": "4.0.2",
+    "@angular/upgrade": "4.0.2",
+    "angular-in-memory-web-api": "~0.3.0",
     "core-js": "^2.4.1",
     "ejs": "2.3.4",
     "es6-promise": "^3.0.2",
@@ -35,11 +35,11 @@
     "include-all": "~0.1.6",
     "rc": "1.0.1",
     "reflect-metadata": "^0.1.2",
-    "rxjs": "^5.0.1",
-    "sails": "~0.12.4",
+    "rxjs": "5.0.1",
+    "sails": "~0.12.13",
     "sails-disk": "~0.10.9",
     "systemjs": "0.19.40",
-    "zone.js": "^0.7.4"
+    "zone.js": "^0.8.4"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -49,6 +49,10 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/xmaestro/sails-angular2.git"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "typescript": "~2.1.0"
   },
   "author": "xmaestro",
   "license": ""
