@@ -16,7 +16,7 @@
     "@angular/upgrade": "4.2.2",
     "angular-in-memory-web-api": "~0.3.0",
     "core-js": "^2.4.1",
-    "ejs": "2.3.4",
+    "ejs": "2.5.5",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.3",
     "express": "^4.14.0",
